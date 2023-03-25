@@ -1,0 +1,61 @@
+.list {
+  background-color: $color-white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0.5rem;
+}
+
+.list-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-metadata {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.list-sharedwith {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 1.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+
+  legend {
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+}
+
+.list-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -1rem -0.5rem -1rem;
+}
+
+.listcontents-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  color: $color-violet-5;
+  padding: 0 1rem;
+}
+
+.listcontents-settings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}

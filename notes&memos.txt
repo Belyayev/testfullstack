@@ -1,0 +1,12 @@
+Here is how to deploy this API to Vercel 
+https://dev.to/andrewbaisden/how-to-deploy-a-node-express-app-to-vercel-2aa
+once vercel is setup just connect github repo and push to main - it will update automatically on every push
+API server file needs to be called index.js to work on vercel
+
+========TODOs:===============
+- group items by department;
+- fix bugs on password reset and redirects;
+- resend email vefication link;
+- admin dashboard;
+- video presentation of the app;
+- setup logging on Vercel;

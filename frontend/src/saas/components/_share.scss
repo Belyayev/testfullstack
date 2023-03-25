@@ -1,0 +1,24 @@
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  color: $color-white;
+  background-color: $color-violet-4;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+
+.sharedList-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 -1rem -0.5rem 0rem;
+}
+
+.titleBorder {
+  text-align: left;
+  border-bottom: 1px solid $color-violet-5;
+  margin: 0 1rem;
+}
